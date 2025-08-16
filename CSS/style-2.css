@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 390vw;
+    
 }
 .principal{
    
@@ -42,7 +43,22 @@ button{
     display: flex;
     justify-content: space-around;
     font-size:  20px;
+   
 }
-section{
-    background-color: gray;
+.sec{
+     background:rgb(194, 194, 212) ;
+     min-height: 35vh;
+}
+
+ #gastos{
+    color:red;
+}
+#saldo{
+    color:green;
+}
+.dividas{
+
+    margin-top:110px;
+    margin-left: 30%;
+
 }
