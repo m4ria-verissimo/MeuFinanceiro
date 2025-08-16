@@ -9,6 +9,10 @@ function entrar(){
    
 }
 function ok(){
-var sal = document.getElementById("dinheiro").value;
+var salario = Number( document.getElementById("salario").value);
+ var saldo = document.getElementById("saldo").textContent=salario + " R$";
+
+ 
+var gastos = document.getElementById("gastos");
 
 }
