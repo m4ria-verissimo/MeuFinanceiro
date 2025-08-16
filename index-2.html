@@ -9,19 +9,25 @@
 <body>
     <div class="prin">
     <main>
-   <header id="bvn"></header>
-   
+   <header id="bvn">   </header>
     </main>
     </div>
-    <div class="div1">Seu salario mensal
-        <input>
+   
+    <div class="div1" ><label> Seu salário mensal:</label>
+        <input  type="number" id="dinheiro">
+        <button onclick="ok()">Ok</button>
     </div>
-    
+    <div class="mae">
+    <div>Saldo: <input id="saldo"> </div>
+    <div>Gastos: <input id="gastos"></div>
+    </div>
+
   <script>
     document.addEventListener("DOMContentLoaded",function(){
     var name = localStorage.getItem("nome");
     document.getElementById("bvn").textContent= name ? "Bem vindo(a)  " + name + "!" : "nome nao encontrado."; });
 
   </script>
+  <script src="JS/app.js"></script>
 </body>
 </html>
