@@ -8,7 +8,7 @@ body{
 .prin{
     background-color:rgb(194, 194, 212);
     max-width: 400vh;
-    height:20vw ;
+    height:40vw ;
 }
 header{
     font-size:40px ;
@@ -21,6 +21,7 @@ header{
     padding: 3vw;
     font-size: 4vw;
     margin-left: 29px;
+    margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 input{
@@ -34,4 +35,10 @@ input{
 .mae{
     display: flex;
     justify-content: space-around;
+}
+#saldo{
+    margin-top: 20px;
+}
+#gastos{
+    margin-top: 20px;
 }
