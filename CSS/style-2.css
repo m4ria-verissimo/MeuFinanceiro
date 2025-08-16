@@ -6,20 +6,22 @@ body{
     max-width: 390vw;
 }
 .principal{
-    background: red;
+   
     height: 30vh;
+   
    
 }
 header{
     font-size:4vh ;
-    
+     margin-top:5% ;
+     margin-left: 2%;
     
 }
 .mes{
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 3%;
     font-size: 3vh;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     
 }
 input{
@@ -31,9 +33,15 @@ input{
 button{
    margin-left: 1%;
    padding: 0% 2% 0 2%;
+   border: 1px solid;
+   border-radius: 3px;
 }
+
 .div1{
     margin-top: 3%;
     display: flex;
     justify-content: space-around;
+}
+section{
+    background-color: gray;
 }
