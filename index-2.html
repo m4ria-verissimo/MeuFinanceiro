@@ -7,22 +7,17 @@
    <link rel="stylesheet" href="CSS/style-2.css">
 </head>
 <body>
-    <div class="prin">
-    <main>
+    <section>
+        <div class="principal">
    <header id="bvn">   </header>
-    </main>
+   <div class="mes">
+   <label>Seu salário mensal:</label><input>
+   <button>oK</button> </div>
+        </div>
+   </section>
    
    
-    <div class="div1" ><label> Seu salário mensal:</label>
-        <input  type="number" id="dinheiro">
-        <button onclick="ok()">Ok</button>
-    </div>
-    </div>
-    <div class="mae">
-    <div >Saldo: <input id="saldo"> </div>
-    <div>Gastos: <input id="gastos"></div>
-    </div>
-
+    
   <script>
     document.addEventListener("DOMContentLoaded",function(){
     var name = localStorage.getItem("nome");
