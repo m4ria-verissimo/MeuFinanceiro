@@ -7,6 +7,7 @@ body{
 }
 .principal{
     background: red;
+    height: 15vw;
    
 }
 header{
@@ -15,6 +16,7 @@ header{
     
 }
 .mes{
+    margin-top: 2%;
     margin-left: 2%;
     font-size: 3vh;
     
@@ -24,4 +26,13 @@ input{
     padding-top: 2px;
     border: 1px solid;
     border-radius: 5px;
+}
+button{
+   margin-left: 1%;
+   padding: 0% 2% 0 2%;
+}
+.div1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
 }
