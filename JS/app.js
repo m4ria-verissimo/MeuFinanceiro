@@ -8,3 +8,7 @@ function entrar(){
     }
    
 }
+function ok(){
+var sal = document.getElementById("dinheiro").value;
+
+}
