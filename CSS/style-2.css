@@ -3,11 +3,12 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    max-width: 400vh;
 }
 .prin{
     background-color:rgb(194, 194, 212);
     max-width: 400vh;
-    height:7vw ;
+    height:20vw ;
 }
 header{
     font-size:40px ;
@@ -16,9 +17,9 @@ header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .div1{
-    margin-top: -4vh;
+   
     padding: 3vw;
-    font-size: 2vw;
+    font-size: 4vw;
     margin-left: 29px;
     font-family: 'Courier New', Courier, monospace;
 }
