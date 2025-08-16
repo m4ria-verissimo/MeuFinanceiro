@@ -3,7 +3,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    max-width: 350vh;
+    max-width: 380vw;
 }
 .principal{
     background: red;
