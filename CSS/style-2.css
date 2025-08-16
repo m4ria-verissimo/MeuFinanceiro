@@ -5,40 +5,22 @@ body{
     flex-direction: column;
     max-width: 400vh;
 }
-.prin{
-    background-color:rgb(194, 194, 212);
-    max-width: 400vh;
-    height:40vw ;
+.principal{
+    background: red;
+    padding: 20px;
 }
 header{
-    font-size:40px ;
-    margin-left:2% ;
-    margin-top:2% ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:7vh ;
+    
+    
 }
-.div1{
-   
-    padding: 3vw;
-    font-size: 4vw;
-    margin-left: 29px;
-    margin-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
+.mes{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 5vh;
+    
 }
 input{
-    width: 10vh;
-    height: 4vh;
-}
-#sal{
-     background-color:rgb(194, 194, 212);
-     font-size: 2vw;
-}
-.mae{
-    display: flex;
-    justify-content: space-around;
-}
-#saldo{
-    margin-top: 20px;
-}
-#gastos{
-    margin-top: 20px;
+    width: 8%;
+    padding-top: 2%;
 }
