@@ -7,7 +7,7 @@ body{
 }
 .principal{
    
-    height: 30vh;
+    height: 20vh;
    
    
 }
@@ -41,7 +41,7 @@ button{
     margin-top: 3%;
     display: flex;
     justify-content: space-around;
-    font-size:  30px;
+    font-size:  20px;
 }
 section{
     background-color: gray;
