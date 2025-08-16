@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.prin{
+    background-color: rgb(132, 0, 255);
+    width: 200vw;
+    height:9vw ;
+}
+header{
+    font-size:40px ;
+    margin-left:3% ;
+    margin-top:2% ;
+}
