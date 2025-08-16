@@ -7,20 +7,19 @@ body{
 }
 .principal{
     background: red;
-    padding: 20px;
+   
 }
 header{
-    font-size:7vh ;
+    font-size:5vh ;
     
     
 }
 .mes{
     margin-left: 5%;
-    margin-top: 4%;
-    font-size: 5vh;
+    font-size: 4vh;
     
 }
 input{
-    width: 8%;
-    padding-top: 2%;
+    width: 5%;
+    padding-top: 1%;
 }
