@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Financeiro</title>
+   <link rel="stylesheet" href="CSS/style-2.css">
+</head>
+<body>
+    <div class="prin">
+    <main>
+   <header id="bvn"></header>
+   
+    </main>
+    </div>
+    <div class="div1">Seu salario mensal
+        <input>
+    </div>
+    
+  <script>
+    document.addEventListener("DOMContentLoaded",function(){
+    var name = localStorage.getItem("nome");
+    document.getElementById("bvn").textContent= name ? "Bem vindo(a)  " + name + "!" : "nome nao encontrado."; });
+
+  </script>
+</body>
+</html>
