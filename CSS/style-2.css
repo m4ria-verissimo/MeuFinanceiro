@@ -20,6 +20,8 @@ header{
     
 }
 input{
-    width: 5%;
+    width: 8%;
     padding-top: 1%;
+    border: 1px solid;
+    border-radius: 5px;
 }
