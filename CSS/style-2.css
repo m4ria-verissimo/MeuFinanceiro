@@ -3,11 +3,11 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    max-width: 380vw;
+    max-width: 390vw;
 }
 .principal{
     background: red;
-    height: 30vw;
+    height: 30vh;
    
 }
 header{
