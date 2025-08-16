@@ -1,18 +1,29 @@
+@media(max-width:600px){
+    .login{
+        padding:10px;
+    }
+    input{
+        width: 100%;
+    }
+}
+
 body {
     padding: 0;
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: white;
+    background:rgb(194, 194, 212) ;
 }
 
 .login {
     border: 1px solid;
-    width: 20%;
-    height: 50%;
+    width: 30%;
+    height:70%;
     margin: auto;
+    background: black;
+    color:rgb(194, 194, 212);
+    border-radius: 8%;
 }
 
 header {
@@ -30,6 +41,7 @@ header {
 
 input {
     margin-left: 15%;
+    background-color:rgb(194, 194, 212);
 }
 
 button {
