@@ -1,4 +1,4 @@
-@media(max-width:600px){
+@media(max-width:600vw){
  
 }
 body{
@@ -6,17 +6,26 @@ body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace; 
 }
-section{
-    display:flex;
-}
+
 header{
     font-size: 2.5em;
    
 }
 #sal{
+    margin-left: 3%;
     font-size: 1.5em;
     font-family: e;
 }
+input{
+     width: 5% ;
+}
 .div1{
+    
      background:rgb(194, 194, 212) ;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-family: e;
 }
