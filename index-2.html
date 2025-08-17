@@ -7,38 +7,43 @@
    <link rel="stylesheet" href="CSS/style-2.css">
 </head>
 <body>
- <section class="sec">
-        <div class="principal">
-   <header id="bvn">   </header>
-   <div class="mes">
-      Seu salário mensal: <input type="number" id="salario" >
-        <button onclick="ok()">OK</button>
+   <main>
+    <section>
+    <div class="div1">
+    <header id="name"></header>
+
+    <p id="sal">Seu salário mensal: <input type="number" id="salario"> <button onclick="ok()">ok</button>
+   </p>
+           
+    <p>Saldo: <span id="saldo"></span></p>
+    <p>Gastos: <span id="gastos"></span></p>
+           
     </div>
-  
-            <div class="div1">
-            <div><p>Saldo: <span id="saldo"></span></p>
-</div>
-            <div><p>Gastos: <span id="gastos"></span></p>
-                </div>
- </p>       </div>
-            </div>
+    </section>
+   </main>
 
- </section>
-        
-         
- 
-            <section>
-               
-            <div class="dividas">
-            <h4>fd</h4>    <input>
-            </div>
-            <div></div>
-            </section>
+    <section>
+      <div>
+      <h2>Dividas <input id="titulo" type="text"> Valor <input type="number" id="valor"> <button onclick="adicionar()">Adicionar</button> </h2>
+      
+      </div>
+    </section>
+    <section>
+      <div id="resultado"></div>
+    </section>
+     <button onclick="atualizar()">atualizar</button>
+     <button onclick="apagarTudo()">Apagar Tudo</button>
+
+
+
+
+
+
+
   <script>
-    document.addEventListener("DOMContentLoaded",function() {
+document.addEventListener("DOMContentLoaded",function() {
     var name = localStorage.getItem("nome");
-    document.getElementById("bvn").textContent= name ? "Bem vindo(a)  " + name + "!" : "nome nao encontrado."; });
-
+    document.getElementById("name").textContent= name ? "Bem vindo(a)  " + name + "!" : "nome nao encontrado."; });
   </script>
   <script src="JS/app.js"></script>
 </body>
