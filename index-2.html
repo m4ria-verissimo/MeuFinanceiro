@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Financeiro</title>
    <link rel="stylesheet" href="CSS/style-2.css">
+   
 </head>
 <body>
    <main>
@@ -12,11 +13,11 @@
     <div class="div1">
     <header id="name"></header>
 
-    <p id="sal">Seu salário mensal: <input type="number" id="salario"> <button onclick="ok()">ok</button>
+    <p id="sal">Seu salário mensal: <input type="number" id="salario"> <button onclick="ok()" id="bt">✅ok</button>
    </p>
           <div class="menu">     
             <p>Saldo: <span id="saldo"></span></p>
-            <p>Gastos: <span id="gastos"></span></p>
+            <p >Gastos: <span id="gastos"></span></p>
           </div>
 
     </div>
@@ -24,8 +25,8 @@
    </main>
 
     <section>
-      <div>
-      <h2>Dividas <input id="titulo" type="text"> Valor <input type="number" id="valor"> <button onclick="adicionar()">Adicionar</button> </h2>
+      <div class="list">
+      <h2>Titulo: <input id="titulo" type="text"> Valor: <input type="number" id="valor"> <button onclick="adicionar()">Adicionar</button> </h2>
       
       </div>
     </section>
@@ -34,10 +35,6 @@
     </section>
      <button onclick="atualizar()">atualizar</button>
      <button onclick="apagarTudo()">Apagar Tudo</button>
-
-
-
-
 
 
 
