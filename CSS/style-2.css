@@ -17,7 +17,7 @@ header{
     font-family: e;
 }
 input{
-     width: 10% ;
+     width: 13% ;
        
 }
 #bt{
@@ -42,4 +42,5 @@ input{
 .list{
     display: flex;
     justify-content: center;
+    margin: auto;
 }
