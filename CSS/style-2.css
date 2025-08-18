@@ -5,6 +5,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Courier New', Courier, monospace; 
+    background-color: #1e1e2f;
+    color: #ecf0f1;
 }
 
 header{
@@ -24,14 +26,13 @@ header{
     width:10%;
     
 }
-.div1{
-     background:rgb(194, 194, 212) ;
-}
+
 .menu{
     display: flex;
     justify-content: space-around;
     font-size: 1.5em;
     font-family: e;
+     
 }
 #saldo{
     color:green;
@@ -42,10 +43,30 @@ header{
 h2{
     text-align: center;
     font-size: 1.0;
+   
 }
 input{
     width: 10%;
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+  
+
 }
 button{
+    color: #ecf0f1;
+    background-color: #1e1e2f;
+    
+    border-radius:10% ;
+}
+button:hover{
+   background-color: #cacccc;
+}
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:15% ;
     
 }
