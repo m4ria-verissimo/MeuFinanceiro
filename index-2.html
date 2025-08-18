@@ -13,11 +13,11 @@
     <div class="div1">
     <header id="name"></header>
 
-    <p id="sal">Seu salário mensal: <input type="number" id="salario"> <button onclick="ok()" id="bt">OK</button>
+    <p id="sal">Seu salário mensal: <input type="number" id="salario" title="Digite seu salário e aperte no 'ok'"> <button onclick="ok()" id="bt" >OK</button>
    </p>
    
           <div class="menu">     
-            <div>Saldo: <span id="saldo"></span></div>
+            <div>Saldo: <span id="saldo" ></span></div>
             <div >Gastos: <span id="gastos"></span></div>
           </div>
         <hr>
@@ -27,7 +27,7 @@
 
     <section>
       <div class="list">
-      <h2>Titulo: <input id="titulo" type="text"> Valor: <input type="number" id="valor"></h2>
+      <h2>Titulo: <input id="titulo" type="text" title="Nome da conta, ex: gás"> Valor: <input type="number" id="valor" title="Valor da conta"></h2>
        <div class="btn">
        <button onclick="adicionar()">Adicionar</button> 
        </div>
@@ -38,8 +38,8 @@
       <div id="resultado"></div>
     </section>
     <div class="botoes">
-     <button onclick="atualizar()">atualizar</button>
-     <button onclick="apagarTudo()">Apagar Tudo</button>
+     <button onclick="atualizar()">Salvar </button>
+     <button onclick="apagarTudo()">Próximo mês</button>
     </div>
 
 
