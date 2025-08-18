@@ -13,29 +13,34 @@
     <div class="div1">
     <header id="name"></header>
 
-    <p id="sal">Seu salário mensal: <input type="number" id="salario"> <button onclick="ok()" id="bt">✅</button>
+    <p id="sal">Seu salário mensal: <input type="number" id="salario"> <button onclick="ok()" id="bt">OK</button>
    </p>
+   
           <div class="menu">     
             <div>Saldo: <span id="saldo"></span></div>
             <div >Gastos: <span id="gastos"></span></div>
           </div>
-
+        <hr>
     </div>
     </section>
    </main>
 
     <section>
       <div class="list">
-      <h2>Titulo: <input id="titulo" type="text"> Valor: <input type="number" id="valor"></h2> <button onclick="adicionar()">Adicionar</button> 
-      
+      <h2>Titulo: <input id="titulo" type="text"> Valor: <input type="number" id="valor"></h2>
+       <div class="btn">
+       <button onclick="adicionar()">Adicionar</button> 
+       </div>
       </div>
     </section>
+    <br><br>
     <section>
       <div id="resultado"></div>
     </section>
+    <div class="botoes">
      <button onclick="atualizar()">atualizar</button>
      <button onclick="apagarTudo()">Apagar Tudo</button>
-
+    </div>
 
 
   <script>
