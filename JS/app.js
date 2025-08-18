@@ -44,6 +44,9 @@ function renderizarItens() {
   listadevalores.forEach((item, indice) => {
     const div = document.createElement("div");
     div.className = "item";
+    div.style.marginTop="10px";
+    div.style.textAlign="center";
+    div.style.fontSize="25px";
     div.textContent = `${item.titulo} - R$${item.valor}`;
 
     const btn = document.createElement("button");
