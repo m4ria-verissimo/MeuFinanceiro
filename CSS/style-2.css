@@ -16,7 +16,7 @@ header{
     font-size: 1.5em;
     font-family: e;
 }
-input{
+.bt{
      width: 13% ;
        
 }
@@ -41,4 +41,8 @@ input{
 }
 h2{
     text-align: center;
+    font-size: 1.0;
+}
+input{
+    width: 10%;
 }
