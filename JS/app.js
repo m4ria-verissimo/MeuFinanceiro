@@ -8,9 +8,6 @@ function entrar() {
     alert("Digite seu nome.");
   }
 }
-function msgok(){
-
-}
 
 let listadevalores = [];
 
